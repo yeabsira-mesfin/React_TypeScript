@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-
+const name = "Yeaspira"
 // Find the root element
 const container = document.getElementById('root');
 
@@ -13,7 +13,7 @@ if (container) {
   // Initial render
   root.render(
     <React.StrictMode>
-      <App message="Hello, TypeScript!" />
+      <App message="This is Yeaspira!" />
     </React.StrictMode>
   );
 }
