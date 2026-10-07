@@ -4,8 +4,8 @@ Verified locally on October 6, 2026 (America/New_York). These results describe s
 
 ## Repository and deployment status
 
-- Current repository: https://github.com/yeabsira-mesfin/React_TypeScript
-- Intended final name: `securecode-bench`. Repository rename, description, and topic settings remain unapplied because the connected GitHub operations do not expose repository administration mutations.
+- Current repository: https://github.com/yeabsira-mesfin/securecode-bench
+- Final name: `securecode-bench`. Repository rename, description, and relevant topics were applied and verified in GitHub on October 7, 2026.
 - Live demo: **not deployed**.
 - Backend/API public link: **not deployed**.
 - Vercel project creation returned HTTP 403 permission denied for the connected team. No Vercel CLI credentials were available.

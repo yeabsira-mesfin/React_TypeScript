@@ -12,5 +12,5 @@
     "fastapi",
     "testing"
   ],
-  "settings_applied": false
+  "settings_applied": true
 }

@@ -2,9 +2,9 @@
 
 A safe static-pattern workbench for evaluating security and reliability risks in generated Python and JavaScript/TypeScript code.
 
-[![CI](https://github.com/yeabsira-mesfin/React_TypeScript/actions/workflows/ci.yml/badge.svg)](https://github.com/yeabsira-mesfin/React_TypeScript/actions)
+[![CI](https://github.com/yeabsira-mesfin/securecode-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/yeabsira-mesfin/securecode-bench/actions)
 
-**Demo status:** public hosting is pending account permissions. No live URL is claimed. Run the local demo below. Intended repository slug: `securecode-bench`; GitHub repository renaming is pending.
+**Demo status:** public hosting is pending account permissions. No live URL is claimed. Run the local demo below.
 
 ## Why this exists
 
