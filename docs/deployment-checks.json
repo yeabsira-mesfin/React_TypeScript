@@ -1,0 +1,32 @@
+{
+  "verified_date": "2026-10-07",
+  "kind": "deployment and synthetic fixture smoke tests, not model evaluation",
+  "vercel_url": "https://securecode-bench.vercel.app/",
+  "github_pages_url": "https://yeabsira-mesfin.github.io/securecode-bench/",
+  "checks": {
+    "/": {
+      "status": 200,
+      "https": true,
+      "nosniff": "nosniff"
+    },
+    "/health": {
+      "status": 200,
+      "https": true,
+      "nosniff": "nosniff"
+    },
+    "/review/example": {
+      "status": 200,
+      "https": true,
+      "nosniff": "nosniff"
+    },
+    "pages_cors": "https://yeabsira-mesfin.github.io",
+    "untrusted_cors": null,
+    "api": {
+      "status": 200,
+      "body": "{\"score\":82,\"grade\":\"B\",\"findings\":[{\"id\":\"sql-injection\",\"title\":\"Possible SQL injection\",\"category\":\"Injection\",\"severity\":\"critical\",\"weight\":18,\"description\":\"User-controlled data appears to be interpolated into a SQL statement.\",\"remediation\":\"Use parameterized queries or prepared statements.\"}],\"finding_count\":1,\"critical_count\":1}"
+    },
+    "bundle_assets": 1,
+    "bundle_suspicions": []
+  },
+  "mobile_scope": "390x844 local production build; live browser checked at desktop viewport"
+}
