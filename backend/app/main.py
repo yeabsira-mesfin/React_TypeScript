@@ -5,7 +5,7 @@ from .scanner import scan
 from .rules import RULES
 import os
 app=FastAPI(title='SecureCodeBench API',version='1.0.0')
-app.add_middleware(CORSMiddleware,allow_origins=os.getenv('ALLOWED_ORIGINS','http://localhost:5173').split(','),allow_methods=['GET','POST'],allow_headers=['Content-Type'])
+app.add_middleware(CORSMiddleware,allow_origins=os.getenv('ALLOWED_ORIGINS','http://localhost:5173,https://yeabsira-mesfin.github.io').split(','),allow_methods=['GET','POST'],allow_headers=['Content-Type'])
 @app.get('/health')
 def health():return {'status':'ok','rules':len(RULES)}
 @app.get('/api/rules')
