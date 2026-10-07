@@ -1,0 +1,16 @@
+{
+  "intended_name": "securecode-bench",
+  "description": "Static security evaluation workbench for AI-generated code with ten AppSec rule categories and remediation guidance.",
+  "topics": [
+    "ai-evaluation",
+    "cybersecurity",
+    "appsec",
+    "code-review",
+    "react",
+    "typescript",
+    "python",
+    "fastapi",
+    "testing"
+  ],
+  "settings_applied": false
+}
