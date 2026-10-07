@@ -1,7 +1,0 @@
-export type ReviewCase={id:string;title:string;file:string;diff:string;issues:{id:string;label:string;severity:string}[]};
-export const reviewCases:ReviewCase[]=[
-{id:'PR-142',title:'Add project details endpoint',file:'src/api/projects.ts',diff:'+ const project = projects.find(p => p.id === req.params.id)\n+ return res.json(project)',issues:[{id:'authz',label:'Missing ownership or tenant authorization',severity:'Critical'},{id:'404',label:'Missing not-found handling',severity:'Medium'}]},
-{id:'PR-188',title:'Load user preferences',file:'src/hooks/usePreferences.ts',diff:'+ useEffect(() => {\n+   fetchPreferences().then(setPreferences)\n+ }, [fetchPreferences])',issues:[{id:'effect',label:'Unstable function dependency can refetch every render',severity:'High'},{id:'cancel',label:'No stale-request cancellation',severity:'Medium'}]},
-{id:'PR-231',title:'Add bulk CSV import',file:'src/import/csv.ts',diff:'+ rows.forEach(async row => {\n+   await db.insert(row)\n+ })\n+ return { imported: rows.length }',issues:[{id:'foreach',label:'Async forEach is not awaited',severity:'High'},{id:'atomic',label:'No transaction or partial-failure strategy',severity:'High'}]},
-{id:'PR-274',title:'Cache search results',file:'src/search/cache.ts',diff:'+ const key = query\n+ cache.set(key, results, 3600)',issues:[{id:'scope',label:'Cache key omits tenant and filter scope',severity:'Critical'},{id:'ttl',label:'Fixed one-hour TTL may serve stale data',severity:'Low'}]}
-];
